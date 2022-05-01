@@ -53,6 +53,7 @@ if (!isset($user_id)) {
                   <input type="hidden" name="product_name" value="<?php echo $fetch_products['nom']; ?>">
                   <input type="hidden" name="product_price" value="<?php echo $fetch_products['prix']; ?>">
                   <input type="hidden" name="product_image" value="<?php echo $fetch_products['image']; ?>">
+                  <input type="hidden" value="ajouter au panier" name="add_to_cart" class="btn">
                   <input type="submit" value="consulter le produit" name="consult" class="btn">
                </form>
          <?php
